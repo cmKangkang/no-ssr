@@ -1,9 +1,7 @@
-import { Component } from "react"
-
+import React, { Component } from "react"
 import { NoSSRProps } from './'
 
 const DefaultOnSSR = () => <></>
-
 class ClassNoSSR extends Component<NoSSRProps> {
   constructor(props: NoSSRProps) {
     super(props)

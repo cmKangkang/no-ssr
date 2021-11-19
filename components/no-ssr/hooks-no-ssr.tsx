@@ -1,4 +1,4 @@
-import { useEffect, useState, FC } from 'react'
+import React, { useEffect, useState, FC } from 'react'
 
 import { NoSSRProps } from './'
 
