@@ -1,6 +1,8 @@
 # no-ssr
 
-no-ssr 是一个基于react的服务端渲染组件，可将其包裹的组件延迟至客户端加载，避免因服务端与客户端渲染结果不一致引发的问题。
+`no-ssr` 是一个基于react的服务端渲染组件，可将其包裹的组件延迟至客户端加载，避免因服务端与客户端渲染结果不一致引发的问题。
+
+`no-ssr` 提供 `react hooks` 与 `react class` 两种类型的组件，以适应各种项目需求。
 
 
 
@@ -45,6 +47,13 @@ const Demo: NextPage = () => {
 ```
 
 
+
+## 组件
+
+| 组件       | 说明             |
+| ---------- | ---------------- |
+| HooksNoSSR | react hooks 组件 |
+| ClassNoSSR | react class 组件 |
 
 
 

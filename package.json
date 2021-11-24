@@ -1,7 +1,7 @@
 {
   "name": "no-ssr",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/no-ssr/index.js",
   "module": "es/no-ssr/index.js",
   "types": "es/no-ssr/index.d.ts",
