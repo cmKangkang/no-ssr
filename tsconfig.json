@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "jsx": "react",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "strict": true,
@@ -9,9 +8,10 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
+    "jsx": "react",
     "outDir": "es",
-    "rootDir": "components"
+    "rootDir": "components",
+    "isolatedModules": false
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist", "es"]
