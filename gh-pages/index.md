@@ -1,3 +1,4 @@
+<link rel="shortcut icon" type="image/png" href="./icon.png" />
 # no-ssr
 
 `no-ssr` 是一个基于react的服务端渲染组件，可将其包裹的组件延迟至客户端加载，避免因服务端与客户端渲染结果不一致引发的问题。

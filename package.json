@@ -32,7 +32,8 @@
     "link": "yalc publish",
     "build": "gulp build",
     "start": "next start",
-    "lint": "eslint \"src/**/*.{ts,tsx}\""
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "page": "git subtree push --prefix=gh-pages origin gh-pages"
   },
   "dependencies": {},
   "devDependencies": {
