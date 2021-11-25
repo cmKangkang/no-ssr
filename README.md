@@ -13,12 +13,12 @@ import { ClassNoSSR, HooksNoSSR } from "no-ssr"
 
 // with hooks
 <HooksNoSSR>
-	<Comp /> // 需要延迟到客户端渲染的组件
+  <Comp /> // 需要延迟到客户端渲染的组件
 </HooksNoSSR>
 
 // with class component
 <ClassNoSSR onSSR={<Loading />}>
-	<Comp />	// 需要延迟到客户端渲染的组件
+  <Comp />	// 需要延迟到客户端渲染的组件
 </ClassNoSSR>
 
 ```
